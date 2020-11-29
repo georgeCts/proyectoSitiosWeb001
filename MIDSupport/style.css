@@ -865,6 +865,10 @@ thead {
     color: #60e3f8;
 }
 
+.featured-item .desc .info-hide {
+    display: none;
+}
+
 @media screen and (max-width: 991px) {
     .equal-wrapper-content {
         padding: 50px 30px;
@@ -1057,6 +1061,12 @@ thead {
 }
 .mocup-wrapper img {
     max-width: 100%;
+}
+
+.valores .row {
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 @media screen and (max-width: 991px) {
