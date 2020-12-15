@@ -64,7 +64,7 @@ header.page-header{
 
  
 h1,h2,h3,h4,h5,h6{ 
-    font-family: 'Righteous', cursive; 
+    font-family: 'Comfortaa', cursive;
     line-height: 1.2;
     margin-top: 0;
     margin-bottom: 15px;
@@ -82,7 +82,7 @@ h2{
 }
 
 h3{
-	font-size: 24px;
+	font-size: 21px;
 	color: #232323;
 }
 
@@ -688,7 +688,7 @@ header.page-header .main-menu{
 .main-menu .navbar-nav li a{
     font-size: 13px;
     font-weight: 700;
-    color: #353535;
+    color: #ffffff;
     padding-top: 6px;
     padding-bottom: 0;
     -webkit-transition: all .3s;
@@ -718,6 +718,16 @@ header.page-header .main-menu{
 	background: #D8D8D8;
 }
 
+.main-menu.minified .navbar-nav li a{
+	color: #353535;
+}
+
+.main-menu.minified .navbar-nav li a:hover,
+.main-menu.minified .navbar-nav li.active a{
+    background-color: transparent;
+    color: #D88735;
+}
+
 header.page-header .main-menu.minified{
 	position: fixed;
 }
@@ -736,7 +746,7 @@ header.page-header .main-menu.minified{
 .navbar-toggleable-sm {
     float: right;
     width: 75%;
-    background: #D8D8D8;
+    background: transparent;
     margin-top: 5px;
 }
 .main-slides .img-overlay{
