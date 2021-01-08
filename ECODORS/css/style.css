@@ -350,6 +350,7 @@ a:active{
 /* content12 */
 #content12{
 	background: #A4C852;
+	
 }
 #content12 .row{
 	margin: 0;
@@ -379,7 +380,7 @@ a:active{
 }
 
 #content12 .content-center p {
-	color: #bde5ff;
+	color: white;
 	/* font-size: 12px; */
 }
 
@@ -426,6 +427,7 @@ a:active{
 .info-section{
 	background: #f3f3f3;
 	padding: 80px 0;
+	
 }
 .info-section h4{
 	color:#444;
